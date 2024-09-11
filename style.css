@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(assets/biblioteca.jpg) no-repeat center center/cover;
+}
+
+.container-center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80vw;
+    max-width: 600px;
+    min-height: 500px;
+    padding: 20px;
+    background: #41f17c; /* Para navegadores que no soportan radial-gradient*/
+    background-image: radial-gradient(circle, rgb(245, 137, 137), rgb(255, 255, 0), rgb(0, 128, 0));
+    border-style: solid;
+    border-color: rgb(31, 8, 233) rgb(193, 245, 4) rgb(241, 6, 6) rgb(225, 0, 255);
+    border-width: 10px;
+    border-radius: 30px;
+}
+
+.container-main {
+    width: 80%;
+}
+
+#titulo {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', sans-serif;
+}
+
+#cita {
+    font-size: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+#autor {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#boton-cambiar-cita {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+}
