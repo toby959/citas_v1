@@ -50,3 +50,8 @@ docker rm citas
 * Para mas información:
 
 [Documentación Oficial Docker](https://docs.docker.com/manuals/)
+___
+
+## Licencia 📜
+
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](https://github.com/toby959/citas_v1/blob/main/LICENSE) para más detalles.
